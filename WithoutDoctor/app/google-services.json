@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "812805522733",
+    "firebase_url": "https://without-doctor.firebaseio.com",
+    "project_id": "without-doctor",
+    "storage_bucket": "without-doctor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812805522733:android:739d957c8986f547",
+        "android_client_info": {
+          "package_name": "com.example.mariia.withoutdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812805522733-lsk0qrfmedk3c7trasjucin417qv4bem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mariia.withoutdoctor",
+            "certificate_hash": "4208cd281dcff6ea0c72e40bada93701731fbfa0"
+          }
+        },
+        {
+          "client_id": "812805522733-gq9hd1783f4cd41ba79ka9kiumg4kd1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBao9jwOeqrGTLf2wO3QB2b0C-0vT3kyjY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812805522733-gq9hd1783f4cd41ba79ka9kiumg4kd1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
