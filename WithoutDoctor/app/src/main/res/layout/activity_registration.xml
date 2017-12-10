@@ -23,7 +23,7 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/name1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView"
@@ -37,9 +37,9 @@
         android:id="@+id/a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/name"
-        android:layout_alignStart="@+id/name"
-        android:layout_below="@+id/name"
+        android:layout_alignLeft="@+id/name1"
+        android:layout_alignStart="@+id/name1"
+        android:layout_below="@+id/name1"
         android:layout_marginTop="24dp"
         android:fontFamily="serif-monospace"
         android:text="Surname"
@@ -81,14 +81,37 @@
         android:textColor="@android:color/holo_green_dark"
         android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passport"
+        android:layout_alignStart="@+id/passport"
+        android:layout_below="@+id/passport"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif-monospace"
+        android:text="Yandex wallet number"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/wallet_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="number" />
+
     <Button
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/passport"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"
         android:background="@android:color/holo_green_dark"
         android:text="Save"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/name1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="150dp"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/surename"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="150dp"
+        android:id="@+id/surename1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/email"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="150dp"
+        android:id="@+id/email1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_light"
+        android:text="My policy"
+        android:textColor="@color/colorPrimaryDark" />
 </LinearLayout>

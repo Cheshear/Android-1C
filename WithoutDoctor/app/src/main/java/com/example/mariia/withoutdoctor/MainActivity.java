@@ -74,7 +74,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()) {
                     Toast.makeText(MainActivity.this, "Авторизация прошла успешно", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(context, UserActivity.class);
+                    Intent intent = new Intent(context, UserActivity2.class);
                     intent.putExtra("email", email);
                     startActivity(intent);
                 } else{

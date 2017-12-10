@@ -7,21 +7,38 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/symbol"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
         </activity>
         <activity android:name=".RegistrationActivity" />
-        <activity android:name=".UserActivity" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity
+            android:name=".AddMoney"
+            android:label="@string/title_activity_add_money" />
+        <activity
+            android:name=".UserActivity2"
+            android:label="@string/title_activity_user2"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".PackagesInCompany" />
+        <activity android:name=".BuyPackage" />
+        <activity android:name=".UserPolicy" />
+        <activity android:name=".UserPolicyInformation"></activity>
     </application>
 
 </manifest>
